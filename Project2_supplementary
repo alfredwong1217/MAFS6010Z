@@ -1,0 +1,3 @@
+## Get the first two digits of SIC as industry dummies variable
+import numpy as np
+df['sic2'] = df['sic2'].apply(np.floor)
