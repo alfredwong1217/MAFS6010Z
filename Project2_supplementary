@@ -26,3 +26,5 @@ df['sic2'] = df['sic2'].apply(np.floor)
 
 ## Pytorch need to be used 
 ## https://sites.google.com/view/agoyal145
+
+## https://medium.com/@aungkyawmyint_26195/multi-layer-perceptron-mnist-pytorch-463f795b897a
