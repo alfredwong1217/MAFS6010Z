@@ -1,3 +1,27 @@
 ## Get the first two digits of SIC as industry dummies variable
 import numpy as np
 df['sic2'] = df['sic2'].apply(np.floor)
+
+## https://towardsdatascience.com/the-mostly-complete-chart-of-neural-networks-explained-3fb6f2367464
+
+## Neural Networks Documents
+## https://scikit-learn.org/stable/modules/neural_networks_supervised.html#
+
+## https://scikit-learn.org/stable/modules/generated/sklearn.neural_network.MLPRegressor.html
+## https://towardsdatascience.com/deep-neural-multilayer-perceptron-mlp-with-scikit-learn-2698e77155e
+## https://www.mygreatlearning.com/blog/types-of-neural-networks/#feedforwardnn
+
+## Neural Network Part of the paper
+## neurons in each layer : (32,16,8,4,2)
+## activation function: ReLU
+## l1 regularization
+## weight optimization by 'adam'
+
+## https://scikit-neuralnetwork.readthedocs.io/_/downloads/en/stable/pdf/
+## Sci-kit learn does not support L1 regularization
+## Sci-kit learn nn does not support adam optimizer
+
+## https://medium.com/biaslyai/pytorch-introduction-to-neural-network-feedforward-neural-network-model-e7231cff47cb
+
+## Pytorch need to be used 
+## https://sites.google.com/view/agoyal145
