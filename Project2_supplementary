@@ -22,6 +22,7 @@ df['sic2'] = df['sic2'].apply(np.floor)
 ## Sci-kit learn nn does not support adam optimizer
 
 ## https://medium.com/biaslyai/pytorch-introduction-to-neural-network-feedforward-neural-network-model-e7231cff47cb
+## https://medium.com/biaslyai/pytorch-introduction-to-neural-network-feedforward-neural-network-model-e7231cff47cb
 
 ## Pytorch need to be used 
 ## https://sites.google.com/view/agoyal145
